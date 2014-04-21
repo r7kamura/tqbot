@@ -1,6 +1,19 @@
 # tqbot
 tqhouse personified bot.
 
+## Setup
+```
+$ heroku create
+$ heroku config:set \
+  SLACK_CHANNEL="#general" \
+  SLACK_PASSWORD="..." \
+  SLACK_TEAM="tqhouse" \
+  SLACK_USERNAME="ellen" \
+  TZ="Asia/Tokyo"
+$ git push heroku master
+$ heroku scale bot=1
+```
+
 ## Deploy
 ```
 $ git push heroku master
