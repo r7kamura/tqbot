@@ -10,7 +10,7 @@ GEM
     chrono (0.0.3)
       activesupport
     dotenv (0.10.0)
-    ellen (0.0.9)
+    ellen (0.1.0)
       activesupport
       bundler
       dotenv
@@ -45,7 +45,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ellen (>= 0.0.9)
+  ellen (>= 0.1.0)
   ellen-cron
   ellen-google_image (>= 0.0.4)
   ellen-slack (>= 0.0.2)

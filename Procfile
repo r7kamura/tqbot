@@ -1,1 +1,1 @@
-bot: bundle exec ellen --adapter slack
+bot: bundle exec ellen
