@@ -18,15 +18,18 @@ GEM
       dotenv
       mem
       slop
-    ellen-cron (0.0.1)
+    ellen-cron (0.0.2)
       activesupport
       chrono
-      ellen (>= 0.0.8)
+      ellen (>= 0.1.1)
     ellen-google_image (0.0.4)
       ellen (>= 0.0.8)
       faraday
       faraday_middleware
-    ellen-redis (0.0.1)
+    ellen-redis (0.0.2)
+      ellen (= 0.1.1)
+      redis
+      redis-namespace
     ellen-slack (0.0.2)
       zircon (>= 0.0.8)
     faraday (0.9.0)
@@ -38,6 +41,9 @@ GEM
     mem (0.1.1)
     minitest (5.3.3)
     multipart-post (2.0.0)
+    redis (3.0.7)
+    redis-namespace (1.4.1)
+      redis (~> 3.0.4)
     slop (3.5.0)
     thread_safe (0.3.3)
     tzinfo (1.1.0)
@@ -49,7 +55,7 @@ PLATFORMS
 
 DEPENDENCIES
   ellen (= 0.1.1)
-  ellen-cron (= 0.0.1)
+  ellen-cron (= 0.0.2)
   ellen-google_image (= 0.0.4)
-  ellen-redis (= 0.0.1)
+  ellen-redis (= 0.0.2)
   ellen-slack (= 0.0.2)
