@@ -9,8 +9,10 @@ GEM
       tzinfo (~> 1.1)
     chrono (0.0.3)
       activesupport
-    dotenv (0.10.0)
-    ellen (0.1.0)
+    dotenv (0.11.0)
+      dotenv-deployment (= 0.0.1)
+    dotenv-deployment (0.0.1)
+    ellen (0.1.1)
       activesupport
       bundler
       dotenv
@@ -24,6 +26,7 @@ GEM
       ellen (>= 0.0.8)
       faraday
       faraday_middleware
+    ellen-redis (0.0.1)
     ellen-slack (0.0.2)
       zircon (>= 0.0.8)
     faraday (0.9.0)
@@ -45,7 +48,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ellen (>= 0.1.0)
-  ellen-cron
-  ellen-google_image (>= 0.0.4)
-  ellen-slack (>= 0.0.2)
+  ellen (= 0.1.1)
+  ellen-cron (= 0.0.1)
+  ellen-google_image (= 0.0.4)
+  ellen-redis (= 0.0.1)
+  ellen-slack (= 0.0.2)
