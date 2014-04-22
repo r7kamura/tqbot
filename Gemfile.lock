@@ -30,7 +30,7 @@ GEM
       ellen (= 0.1.1)
       redis
       redis-namespace
-    ellen-slack (0.0.2)
+    ellen-slack (0.0.3)
       zircon (>= 0.0.8)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
@@ -58,4 +58,4 @@ DEPENDENCIES
   ellen-cron (= 0.0.2)
   ellen-google_image (= 0.0.4)
   ellen-redis (= 0.0.2)
-  ellen-slack (= 0.0.2)
+  ellen-slack (= 0.0.3)
