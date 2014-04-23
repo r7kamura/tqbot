@@ -5,6 +5,7 @@ tqhouse personified bot.
 ```
 $ heroku create
 $ heroku config:set \
+  REDIS_URL="..." \
   SLACK_CHANNEL="#general" \
   SLACK_PASSWORD="..." \
   SLACK_TEAM="tqhouse" \
