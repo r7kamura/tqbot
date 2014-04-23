@@ -18,7 +18,7 @@ GEM
       dotenv
       mem
       slop
-    ellen-cron (0.0.2)
+    ellen-cron (0.0.3)
       activesupport
       chrono
       ellen (>= 0.1.1)
@@ -55,7 +55,7 @@ PLATFORMS
 
 DEPENDENCIES
   ellen (= 0.1.1)
-  ellen-cron (= 0.0.2)
+  ellen-cron (= 0.0.3)
   ellen-google_image (= 0.0.4)
   ellen-redis (= 0.0.2)
   ellen-slack (= 0.0.3)
