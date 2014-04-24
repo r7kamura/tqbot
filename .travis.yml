@@ -8,3 +8,5 @@ deploy:
   app: tqbot
   on:
     repo: r7kamura/tqbot
+notifications:
+  slack: tqhouse:DjeM3ptBG7krbjntZLFpeIyw
