@@ -41,6 +41,7 @@ GEM
     mem (0.1.1)
     minitest (5.3.3)
     multipart-post (2.0.0)
+    rake (10.3.1)
     redis (3.0.7)
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
@@ -59,3 +60,4 @@ DEPENDENCIES
   ellen-google_image (= 0.0.4)
   ellen-redis (= 0.0.3)
   ellen-slack (= 0.0.3)
+  rake
