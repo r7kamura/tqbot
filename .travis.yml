@@ -1,8 +1,10 @@
+language: ruby
 rvm:
-- 2.1.0
-branches:
-  only:
-  - master
+- 2.0.0
 deploy:
+  provider: heroku
   api_key:
-    secure: Md90ZRVn5QtLszyl/cakCIWo5miXSJW5F4Ltc2vitI5mz4GE4RQyePHNlh4ebRBDNCSaI1XhPLHOx1HWNdyoKqCPPwWvbpCR0MuY2kCS8VdM6HTvEaXGn8w7x91kRPW9JvlAbDcZcN1s9SWd2RkNkovH1lUvSCsrhnTz3B4W1Xw=
+    secure: i8VKeiLBijos8XY68LBBnbULs2hw30C0BbPv9HlYpoqNJkA854wHDhV8NNmqo0z/mMDVW32RP5mvUwwk1iP+OzSX+jbEp6cW2PlpfU7PfzgY7r8YrVrNUPrYEkZFIZbKSzLpmrIw5AGuo1woTVCkyIfJBSjWEVB6HjJpmUobEUI=
+  app: tqbot
+  on:
+    repo: r7kamura/tqbot
