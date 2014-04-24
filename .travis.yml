@@ -1,0 +1,8 @@
+rvm:
+- 2.1.0
+branches:
+  only:
+  - master
+deploy:
+  api_key:
+    secure: Md90ZRVn5QtLszyl/cakCIWo5miXSJW5F4Ltc2vitI5mz4GE4RQyePHNlh4ebRBDNCSaI1XhPLHOx1HWNdyoKqCPPwWvbpCR0MuY2kCS8VdM6HTvEaXGn8w7x91kRPW9JvlAbDcZcN1s9SWd2RkNkovH1lUvSCsrhnTz3B4W1Xw=
