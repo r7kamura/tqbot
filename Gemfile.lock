@@ -13,28 +13,29 @@ GEM
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
-    ellen (0.1.3)
+    ellen (0.2.0)
       activesupport
       bundler
       dotenv
       mem
       slop
-    ellen-cron (0.0.3)
+    ellen-cron (0.0.4)
       activesupport
       chrono
-      ellen (>= 0.1.1)
-    ellen-github (0.0.2)
-      ellen (>= 0.1.3)
+      ellen (>= 0.2.0)
+    ellen-github (0.0.3)
+      ellen (>= 0.2.0)
       octokit
-    ellen-google_image (0.0.5)
-      ellen (>= 0.0.8)
+    ellen-google_image (0.0.6)
+      ellen (>= 0.2.0)
       faraday
       faraday_middleware
     ellen-redis (0.0.3)
       ellen (>= 0.1.1)
       redis
       redis-namespace
-    ellen-slack (0.0.3)
+    ellen-slack (0.0.4)
+      ellen (>= 0.2.0)
       zircon (>= 0.0.8)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
@@ -64,10 +65,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ellen (= 0.1.3)
-  ellen-cron (= 0.0.3)
-  ellen-github (= 0.0.2)
-  ellen-google_image (= 0.0.5)
-  ellen-redis (= 0.0.3)
-  ellen-slack (= 0.0.3)
+  ellen
+  ellen-cron
+  ellen-github
+  ellen-google_image
+  ellen-redis
+  ellen-slack
   rake
