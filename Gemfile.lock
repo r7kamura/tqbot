@@ -10,10 +10,11 @@ GEM
     addressable (2.3.6)
     chrono (0.0.3)
       activesupport
+    coderay (1.1.0)
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
-    ellen (0.2.0)
+    ellen (0.2.1)
       activesupport
       bundler
       dotenv
@@ -23,7 +24,7 @@ GEM
       activesupport
       chrono
       ellen (>= 0.2.0)
-    ellen-github (0.0.3)
+    ellen-github (0.0.4)
       ellen (>= 0.2.0)
       octokit
     ellen-google_image (0.0.6)
@@ -44,10 +45,15 @@ GEM
     i18n (0.6.9)
     json (1.8.1)
     mem (0.1.1)
+    method_source (0.8.2)
     minitest (5.3.3)
     multipart-post (2.0.0)
     octokit (3.1.0)
       sawyer (~> 0.5.3)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     rake (10.3.1)
     redis (3.0.7)
     redis-namespace (1.4.1)
@@ -71,4 +77,5 @@ DEPENDENCIES
   ellen-google_image
   ellen-redis
   ellen-slack
+  pry
   rake
