@@ -38,15 +38,21 @@ GEM
     ellen-slack (0.0.4)
       ellen (>= 0.2.0)
       zircon (>= 0.0.8)
+    ellen-syoboi_calendar (0.0.2)
+      activesupport
+      ellen (>= 0.2.0)
+      syoboi_calendar (= 0.2.1)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
+    hashie (2.1.1)
     i18n (0.6.9)
     json (1.8.1)
     mem (0.1.1)
     method_source (0.8.2)
     minitest (5.3.3)
+    multi_xml (0.5.5)
     multipart-post (2.0.0)
     octokit (3.1.0)
       sawyer (~> 0.5.3)
@@ -62,6 +68,12 @@ GEM
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
     slop (3.5.0)
+    syoboi_calendar (0.2.1)
+      activesupport
+      faraday
+      faraday_middleware
+      hashie
+      multi_xml
     thread_safe (0.3.3)
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
@@ -77,5 +89,6 @@ DEPENDENCIES
   ellen-google_image
   ellen-redis
   ellen-slack
+  ellen-syoboi_calendar
   pry
   rake
