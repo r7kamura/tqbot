@@ -35,6 +35,9 @@ GEM
       ellen (>= 0.1.1)
       redis
       redis-namespace
+    ellen-slack (0.0.4)
+      ellen (>= 0.2.0)
+      zircon (>= 0.0.8)
     ellen-syoboi_calendar (0.0.3)
       activesupport
       ellen (>= 0.2.0)
@@ -74,6 +77,7 @@ GEM
     thread_safe (0.3.3)
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
+    zircon (0.0.8)
 
 PLATFORMS
   ruby
@@ -84,6 +88,7 @@ DEPENDENCIES
   ellen-github
   ellen-google_image
   ellen-redis
+  ellen-slack
   ellen-syoboi_calendar
   pry
   rake
