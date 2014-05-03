@@ -35,13 +35,10 @@ GEM
       ellen (>= 0.1.1)
       redis
       redis-namespace
-    ellen-slack (0.0.4)
-      ellen (>= 0.2.0)
-      zircon (>= 0.0.8)
-    ellen-syoboi_calendar (0.0.2)
+    ellen-syoboi_calendar (0.0.3)
       activesupport
       ellen (>= 0.2.0)
-      syoboi_calendar (= 0.2.1)
+      syoboi_calendar (= 0.3.1)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
@@ -68,7 +65,7 @@ GEM
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
     slop (3.5.0)
-    syoboi_calendar (0.2.1)
+    syoboi_calendar (0.3.1)
       activesupport
       faraday
       faraday_middleware
@@ -77,7 +74,6 @@ GEM
     thread_safe (0.3.3)
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
-    zircon (0.0.8)
 
 PLATFORMS
   ruby
@@ -88,7 +84,6 @@ DEPENDENCIES
   ellen-github
   ellen-google_image
   ellen-redis
-  ellen-slack
   ellen-syoboi_calendar
   pry
   rake
