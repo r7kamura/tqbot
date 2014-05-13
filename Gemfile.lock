@@ -20,7 +20,7 @@ GEM
       dotenv
       mem
       slop
-    ellen-cron (0.0.6)
+    ellen-cron (0.0.7)
       activesupport
       chrono
       ellen (>= 0.2.0)
@@ -35,10 +35,10 @@ GEM
       ellen (>= 0.1.1)
       redis
       redis-namespace
-    ellen-slack (0.1.1)
+    ellen-slack (0.1.2)
       ellen (>= 0.2.2)
       xrc (>= 0.0.3)
-    ellen-syoboi_calendar (0.0.3)
+    ellen-syoboi_calendar (0.0.4)
       activesupport
       ellen (>= 0.2.0)
       syoboi_calendar (= 0.3.1)
