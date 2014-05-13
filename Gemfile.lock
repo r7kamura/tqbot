@@ -20,7 +20,7 @@ GEM
       dotenv
       mem
       slop
-    ellen-cron (0.0.5)
+    ellen-cron (0.0.6)
       activesupport
       chrono
       ellen (>= 0.2.0)
