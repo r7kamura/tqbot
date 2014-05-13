@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.1.0)
+    activesupport (4.1.1)
       i18n (~> 0.6, >= 0.6.9)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -14,7 +14,7 @@ GEM
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
-    ellen (0.2.1)
+    ellen (0.2.2)
       activesupport
       bundler
       dotenv
@@ -35,9 +35,9 @@ GEM
       ellen (>= 0.1.1)
       redis
       redis-namespace
-    ellen-slack (0.0.4)
-      ellen (>= 0.2.0)
-      zircon (>= 0.0.8)
+    ellen-slack (0.1.1)
+      ellen (>= 0.2.2)
+      xrc (>= 0.0.3)
     ellen-syoboi_calendar (0.0.3)
       activesupport
       ellen (>= 0.2.0)
@@ -77,13 +77,13 @@ GEM
     thread_safe (0.3.3)
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
-    zircon (0.0.8)
+    xrc (0.0.3)
+      activesupport
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  ellen
   ellen-cron
   ellen-github
   ellen-google_image
