@@ -14,7 +14,7 @@ GEM
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
-    ellen (0.2.2)
+    ellen (0.2.3)
       activesupport
       bundler
       dotenv
@@ -77,7 +77,7 @@ GEM
     thread_safe (0.3.3)
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
-    xrc (0.0.4)
+    xrc (0.0.5)
       activesupport
 
 PLATFORMS
