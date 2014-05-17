@@ -24,7 +24,7 @@ GEM
       activesupport
       chrono
       ellen (>= 0.2.0)
-    ellen-github (0.0.5)
+    ellen-github (0.0.6)
       activesupport
       ellen (>= 0.2.0)
       octokit
