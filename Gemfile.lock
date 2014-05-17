@@ -24,7 +24,8 @@ GEM
       activesupport
       chrono
       ellen (>= 0.2.0)
-    ellen-github (0.0.4)
+    ellen-github (0.0.5)
+      activesupport
       ellen (>= 0.2.0)
       octokit
     ellen-google_image (0.0.6)
@@ -51,7 +52,7 @@ GEM
     json (1.8.1)
     mem (0.1.1)
     method_source (0.8.2)
-    minitest (5.3.3)
+    minitest (5.3.4)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
     octokit (3.1.0)
@@ -60,7 +61,7 @@ GEM
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
-    rake (10.3.1)
+    rake (10.3.2)
     redis (3.0.7)
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
