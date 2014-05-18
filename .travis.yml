@@ -7,6 +7,7 @@ deploy:
     secure: i8VKeiLBijos8XY68LBBnbULs2hw30C0BbPv9HlYpoqNJkA854wHDhV8NNmqo0z/mMDVW32RP5mvUwwk1iP+OzSX+jbEp6cW2PlpfU7PfzgY7r8YrVrNUPrYEkZFIZbKSzLpmrIw5AGuo1woTVCkyIfJBSjWEVB6HjJpmUobEUI=
   app: tqbot
   on:
+    branch: production
     repo: r7kamura/tqbot
 notifications:
   slack: tqhouse:DjeM3ptBG7krbjntZLFpeIyw
