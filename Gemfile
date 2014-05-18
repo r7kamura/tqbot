@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "ellen-alias"
 gem "ellen-cron"
 gem "ellen-github"
 gem "ellen-google_image"

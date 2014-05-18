@@ -20,6 +20,8 @@ GEM
       dotenv
       mem
       slop
+    ellen-alias (0.0.1)
+      ellen (>= 0.2.4)
     ellen-cron (0.0.7)
       activesupport
       chrono
@@ -85,6 +87,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ellen-alias
   ellen-cron
   ellen-github
   ellen-google_image
