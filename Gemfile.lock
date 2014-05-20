@@ -14,7 +14,7 @@ GEM
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
-    ellen (0.2.6)
+    ellen (0.2.8)
       activesupport
       bundler
       dotenv
@@ -22,13 +22,13 @@ GEM
       slop
     ellen-alias (0.0.2)
       ellen (>= 0.2.4)
-    ellen-cron (0.0.7)
+    ellen-cron (0.0.8)
       activesupport
       chrono
       ellen (>= 0.2.0)
-    ellen-github (0.0.6)
+    ellen-github (0.0.7)
       activesupport
-      ellen (>= 0.2.0)
+      ellen (>= 0.2.7)
       octokit
     ellen-google_image (0.0.6)
       ellen (>= 0.2.0)
@@ -38,7 +38,7 @@ GEM
       ellen (>= 0.1.1)
       redis
       redis-namespace
-    ellen-slack (0.1.2)
+    ellen-slack (0.1.3)
       ellen (>= 0.2.2)
       xrc (>= 0.0.3)
     ellen-syoboi_calendar (0.0.4)
