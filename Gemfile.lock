@@ -1,3 +1,9 @@
+GIT
+  remote: https://gist.github.com/0146d99b96f938898d08.git
+  revision: daf009297cd05aabe80e1e5e61aa6a1bca3e9554
+  specs:
+    ellen-nurupo (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -91,6 +97,7 @@ DEPENDENCIES
   ellen-cron
   ellen-github
   ellen-google_image
+  ellen-nurupo!
   ellen-redis
   ellen-slack
   ellen-syoboi_calendar
