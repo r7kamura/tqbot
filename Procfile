@@ -1,1 +1,1 @@
-bot: bundle exec ellen
+bot: bundle exec ruboty
