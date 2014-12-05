@@ -1,3 +1,21 @@
+GIT
+  remote: git://github.com/r7kamura/ruboty-alias.git
+  revision: 589a75758bf58bec49009e3c81dfc4adde5277cf
+  specs:
+    ruboty-alias (0.0.4)
+      ruboty
+
+GIT
+  remote: git://github.com/r7kamura/ruboty.git
+  revision: ad1da969ee73bb9a21ad9f62c2f0e55cd7d06b3b
+  specs:
+    ruboty (1.1.0)
+      activesupport
+      bundler
+      dotenv
+      mem
+      slop
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -38,14 +56,6 @@ GEM
     redis (3.0.7)
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
-    ruboty (1.1.0)
-      activesupport
-      bundler
-      dotenv
-      mem
-      slop
-    ruboty-alias (0.0.3)
-      ruboty
     ruboty-cron (0.0.9)
       activesupport
       chrono
@@ -98,7 +108,8 @@ PLATFORMS
 DEPENDENCIES
   pry
   rake
-  ruboty-alias
+  ruboty!
+  ruboty-alias!
   ruboty-cron
   ruboty-github
   ruboty-google_image
