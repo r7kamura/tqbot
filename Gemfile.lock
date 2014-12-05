@@ -11,7 +11,7 @@ GEM
     chrono (0.0.4)
       activesupport
     coderay (1.1.0)
-    docomoru (0.0.2)
+    docomoru (0.0.3)
       activesupport
       faraday
       faraday_middleware
@@ -73,8 +73,8 @@ GEM
       activesupport
       ruboty
       syoboi_calendar (= 0.3.1)
-    ruboty-talk (0.0.1)
-      docomoru (>= 0.0.2)
+    ruboty-talk (0.0.2)
+      docomoru (>= 0.0.3)
       ruboty (>= 1.1.0)
     sawyer (0.5.4)
       addressable (~> 2.3.5)
