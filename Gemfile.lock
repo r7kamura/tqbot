@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/r7kamura/ruboty-talk.git
+  revision: 79bb20dd624bc147d7fa9431ac566d33f93470e5
+  specs:
+    ruboty-talk (0.0.2)
+      docomoru (>= 0.0.3)
+      ruboty (>= 1.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -11,10 +19,13 @@ GEM
     chrono (0.0.4)
       activesupport
     coderay (1.1.0)
-    docomoru (0.0.3)
+    docomoru (0.1.0)
       activesupport
       faraday
       faraday_middleware
+      json
+      rack
+      slop
     dotenv (1.0.2)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
@@ -34,6 +45,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    rack (1.5.2)
     rake (10.3.2)
     redis (3.0.7)
     redis-namespace (1.4.1)
@@ -73,9 +85,6 @@ GEM
       activesupport
       ruboty
       syoboi_calendar (= 0.3.1)
-    ruboty-talk (0.0.2)
-      docomoru (>= 0.0.3)
-      ruboty (>= 1.1.0)
     sawyer (0.5.4)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
@@ -107,4 +116,4 @@ DEPENDENCIES
   ruboty-redis
   ruboty-slack
   ruboty-syoboi_calendar
-  ruboty-talk
+  ruboty-talk!
