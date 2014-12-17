@@ -11,10 +11,13 @@ GEM
     chrono (0.0.4)
       activesupport
     coderay (1.1.0)
-    docomoru (0.0.3)
+    docomoru (0.1.0)
       activesupport
       faraday
       faraday_middleware
+      json
+      rack
+      slop
     dotenv (1.0.2)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
@@ -25,32 +28,33 @@ GEM
     json (1.8.1)
     mem (0.1.5)
     method_source (0.8.2)
-    minitest (5.4.3)
+    minitest (5.5.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    octokit (3.1.2)
-      sawyer (~> 0.5.3)
+    octokit (3.7.0)
+      sawyer (~> 0.6.0, >= 0.5.3)
     pry (0.10.0)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    rack (1.5.2)
     rake (10.3.2)
     redis (3.0.7)
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
-    ruboty (1.1.0)
+    ruboty (1.1.2)
       activesupport
       bundler
       dotenv
       mem
       slop
-    ruboty-alias (0.0.3)
-      ruboty
+    ruboty-alias (0.0.6)
+      ruboty (>= 1.1.1)
     ruboty-cron (0.0.9)
       activesupport
       chrono
       ruboty (>= 0.2.0)
-    ruboty-github (0.1.0)
+    ruboty-github (0.1.1)
       activesupport
       octokit
       ruboty
@@ -73,10 +77,10 @@ GEM
       activesupport
       ruboty
       syoboi_calendar (= 0.3.1)
-    ruboty-talk (0.0.2)
+    ruboty-talk (0.0.3)
       docomoru (>= 0.0.3)
       ruboty (>= 1.1.0)
-    sawyer (0.5.4)
+    sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
     slop (3.6.0)
@@ -98,6 +102,7 @@ PLATFORMS
 DEPENDENCIES
   pry
   rake
+  ruboty
   ruboty-alias
   ruboty-cron
   ruboty-github
