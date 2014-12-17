@@ -1,12 +1,3 @@
-GIT
-  remote: git://github.com/r7kamura/ruboty-github.git
-  revision: a6dcc381f1c2b0bce125560ef8335629a949a1fd
-  specs:
-    ruboty-github (0.1.0)
-      activesupport
-      octokit
-      ruboty
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,7 +28,7 @@ GEM
     json (1.8.1)
     mem (0.1.5)
     method_source (0.8.2)
-    minitest (5.4.3)
+    minitest (5.5.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
     octokit (3.7.0)
@@ -63,6 +54,10 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
+    ruboty-github (0.1.1)
+      activesupport
+      octokit
+      ruboty
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
@@ -110,7 +105,7 @@ DEPENDENCIES
   ruboty
   ruboty-alias
   ruboty-cron
-  ruboty-github!
+  ruboty-github
   ruboty-google_image
   ruboty-lgtm
   ruboty-redis
