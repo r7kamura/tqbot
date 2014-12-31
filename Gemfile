@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "pry"
 gem "rake"
-gem "ruboty"
+gem "ruboty", github: "r7kamura/ruboty"
 gem "ruboty-alias"
 gem "ruboty-cron"
 gem "ruboty-github"
