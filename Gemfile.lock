@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/r7kamura/ikku.git
+  revision: 15a2fb13bc576aacb7e0afa8aae8123e4d73f1bd
+  specs:
+    ikku (0.0.3)
+      natto
+
+GIT
   remote: git://github.com/r7kamura/ruboty.git
   revision: 2f11315725ac0b43f003aa318d2fa0e9c022d471
   specs:
@@ -44,8 +51,6 @@ GEM
     ffi (1.9.6)
     hashie (3.0.0)
     i18n (0.6.11)
-    ikku (0.0.3)
-      natto
     json (1.8.1)
     mem (0.1.5)
     method_source (0.8.2)
@@ -117,6 +122,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ikku!
   pry
   rake
   ruboty!
