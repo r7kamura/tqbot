@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://gist.github.com/r7kamura/529cab313a3bf792fcf9
-  revision: e348e22d50890aff9fe3b3e7b632f4a2c92352ec
+  revision: 4efe51bb004fa1e82562453f7198f592d7ddb4e0
   specs:
     ruboty-kokodeikku (0.0.1)
       ikku
