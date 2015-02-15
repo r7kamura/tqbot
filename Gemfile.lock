@@ -1,27 +1,9 @@
 GIT
   remote: git://github.com/r7kamura/ikku.git
-  revision: 15a2fb13bc576aacb7e0afa8aae8123e4d73f1bd
+  revision: ee685ae38e6a4f82d36cbe507422c045a137c218
   specs:
-    ikku (0.0.3)
+    ikku (0.0.5)
       natto
-
-GIT
-  remote: git://github.com/r7kamura/ruboty.git
-  revision: 2f11315725ac0b43f003aa318d2fa0e9c022d471
-  specs:
-    ruboty (1.1.3)
-      activesupport
-      bundler
-      dotenv
-      mem
-      slop
-
-GIT
-  remote: https://gist.github.com/r7kamura/529cab313a3bf792fcf9
-  revision: 4efe51bb004fa1e82562453f7198f592d7ddb4e0
-  specs:
-    ruboty-kokodeikku (0.0.1)
-      ikku
 
 GEM
   remote: https://rubygems.org/
@@ -70,6 +52,12 @@ GEM
     redis (3.0.7)
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
+    ruboty (1.1.4)
+      activesupport
+      bundler
+      dotenv
+      mem
+      slop
     ruboty-alias (0.0.6)
       ruboty (>= 1.1.1)
     ruboty-cron (0.0.9)
@@ -83,6 +71,9 @@ GEM
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
+      ruboty
+    ruboty-kokodeikku (0.0.3)
+      ikku (>= 0.0.4)
       ruboty
     ruboty-lgtm (0.0.2)
       faraday
@@ -125,12 +116,12 @@ DEPENDENCIES
   ikku!
   pry
   rake
-  ruboty!
+  ruboty
   ruboty-alias
   ruboty-cron
   ruboty-github
   ruboty-google_image
-  ruboty-kokodeikku!
+  ruboty-kokodeikku
   ruboty-lgtm
   ruboty-redis
   ruboty-slack
