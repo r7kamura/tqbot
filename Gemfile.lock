@@ -1,18 +1,18 @@
 GIT
   remote: git://github.com/r7kamura/ikku.git
-  revision: ee685ae38e6a4f82d36cbe507422c045a137c218
+  revision: d78cb1a6b871c38be752cbeeee8d7467e1fe65d8
   specs:
-    ikku (0.0.5)
+    ikku (0.1.1)
       natto
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.1.8)
-      i18n (~> 0.6, >= 0.6.9)
+    activesupport (4.2.0)
+      i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
-      thread_safe (~> 0.1)
+      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.6)
     chrono (0.0.4)
@@ -32,11 +32,11 @@ GEM
       faraday (>= 0.7.4, < 0.10)
     ffi (1.9.6)
     hashie (3.0.0)
-    i18n (0.6.11)
-    json (1.8.1)
+    i18n (0.7.0)
+    json (1.8.2)
     mem (0.1.5)
     method_source (0.8.2)
-    minitest (5.5.0)
+    minitest (5.5.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
     natto (0.9.8)
@@ -72,8 +72,8 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-kokodeikku (0.0.3)
-      ikku (>= 0.0.4)
+    ruboty-kokodeikku (0.0.5)
+      ikku (>= 0.1.1)
       ruboty
     ruboty-lgtm (0.0.2)
       faraday
