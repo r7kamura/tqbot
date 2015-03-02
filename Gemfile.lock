@@ -5,6 +5,13 @@ GIT
     ikku (0.1.1)
       natto
 
+GIT
+  remote: git://github.com/r7kamura/ruboty-echo.git
+  revision: c477f44b8aad2b0a3af169eac30cc10780d748b5
+  specs:
+    ruboty-echo (0.0.1)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -119,6 +126,7 @@ DEPENDENCIES
   ruboty
   ruboty-alias
   ruboty-cron
+  ruboty-echo!
   ruboty-github
   ruboty-google_image
   ruboty-kokodeikku
