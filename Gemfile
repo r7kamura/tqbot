@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-gem "pry"
 gem "rake"
 gem "ruboty"
 gem "ruboty-alias"
