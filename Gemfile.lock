@@ -82,7 +82,7 @@ GEM
       redis
       redis-namespace
       ruboty
-    ruboty-slack (0.1.11)
+    ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
       xrc (>= 0.1.8)
     ruboty-syoboi_calendar (0.0.7)
