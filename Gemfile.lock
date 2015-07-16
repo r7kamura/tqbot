@@ -141,6 +141,7 @@ DEPENDENCIES
   ruboty-syoboi_calendar
   ruboty-talk
   ruboty-twitter_search
+  xrc
 
 BUNDLED WITH
    1.10.2
